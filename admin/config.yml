@@ -28,7 +28,7 @@ collections:
           - {label: "Image", name: "picture", widget: "string", hint: "Avatar url, e.g. https://avatars.githubusercontent.com/ExperimentsInHonesty"}
           - label: "Links"
             name: "links"
-            widget: "list"
+            widget: "object"
             fields:
               - {label: "Slack URL", name: "slack", widget: "string", required: false}
               - {label: "GitHub Profile URL", name: "github", widget: "string", required: false}
